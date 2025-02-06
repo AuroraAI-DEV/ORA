@@ -1,0 +1,8 @@
+We welcome contributions from developers, data scientists, and AI enthusiasts.
+
+Check Open Issues: Look for issues labeled help wanted or good first issue.
+Create a Branch: git checkout -b feature/<your-feature>
+Commit & Push: Provide a clear commit history.
+Submit a Pull Request: To the develop branch.
+Review & Merge: Wait for maintainers to review and merge your changes.
+We appreciate tests for any new functionalities to maintain quality and stability.
