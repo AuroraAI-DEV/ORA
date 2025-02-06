@@ -1,0 +1,5 @@
+Navigate to http://localhost:3000 (or the port specified in .env).
+Explore:
+Dashboard: Real-time statistics on active users, system performance, model accuracy.
+Chatbot Interface: Test the oracle-like Q&A features.
+Code Review: (If integrated) paste a snippet of code and let ORA suggest improvements.
