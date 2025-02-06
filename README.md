@@ -1,9 +1,6 @@
 # Aurora (ORA)
 > **Oracle-Inspired AI for Advanced Insights, Predictions, and Guidance**
 
-![Aurora (ORA) Banner](./assets/ora_banner.png)  
-<sub>*Optional banner image for branding*</sub>
-
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Core Philosophy](#core-philosophy)
