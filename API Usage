@@ -1,0 +1,12 @@
+By default, the API runs on http://localhost:8000 (or a Docker-assigned port). You can test endpoints using a tool like curl or Postman:
+# Example: NLP Q/A endpoint
+curl -X POST \
+     -H "Content-Type: application/json" \
+     -H "Authorization: Bearer <API_KEY>" \
+     -d '{"question": "What is Aurora (ORA)?"}' \
+     http://localhost:8000/api/v1/nlp/qa
+
+{
+  "answer": "Aurora (ORA) is an oracle-inspired AI platform...",
+  "confidence": 0.96
+}
