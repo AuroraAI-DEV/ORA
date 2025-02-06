@@ -1,0 +1,17 @@
+Branching Strategy
+We use GitFlow or a feature-branch approach:
+
+main: Stable branch for production-ready releases.
+develop: Primary branch for ongoing development; merges happen here from feature branches.
+Feature Branch: Create a branch like feature/<short-description> for each new feature or improvement.
+Testing & Linting
+Python Tests:
+pytest --cov=ora_core tests/
+Linting (Python):
+bash
+flake8 ora_core
+Frontend Tests:
+cd frontend
+npm test
+Continuous Integration:
+The project includes a GitHub Actions workflow (.github/workflows/ci.yml) that runs tests & lint checks on each pull request.
