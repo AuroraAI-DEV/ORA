@@ -1,0 +1,10 @@
+Copy the example environment file and adjust for your local setup:
+cp .env.example .env
+Environment Variables:
+
+DB_URL: Database connection string (e.g., PostgreSQL, MongoDB).
+API_KEY: Key used for authenticated requests to ORA’s endpoints.
+LOG_LEVEL: Set the verbosity of logs (e.g., DEBUG, INFO, ERROR).
+MODEL_STORAGE_PATH: File path or bucket URL for storing trained models.
+ENABLE_EXPLAINABILITY: Toggle advanced logging for model decisions.
+Additional variables may be required if you integrate with external APIs (e.g., GitHub, Slack, or cloud providers).
