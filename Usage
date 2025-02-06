@@ -1,0 +1,10 @@
+CLI Usage
+ORA Command-Line Interface
+Install the CLI package (if it’s separate or once it’s published to PyPI):
+pip install ora-cli
+ora-cli --help
+# Ask a direct question
+ora-cli question "What are the top 3 issues in this project?"
+
+# Generate a summary of commits
+ora-cli summarize-commits --repo ./my-repo
